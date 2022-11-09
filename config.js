@@ -26,8 +26,8 @@ import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
 let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+    let wibm = moment.tz('Europe/Rome').format('mm')
+    let wibs = moment.tz('Europe/Rome').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -49,13 +49,13 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
-global.sig = 'https://instagram.com/_ctzhid' // ig
+global.sig = 'https://instagram.com/itsgabbux' // ig
 global.sgh = 'https://github.com/WH-MODS-BOT/' // github
-global.sgc = 'https://chat.whatsapp.com/FQkbyTEfvES3D363uxMEFOI' // group whatsapp
+global.sgc = 'https://chat.whatsapp.com/' // group whatsapp
 global.sdc = 'https://www.discord.com'//discord
-global.snh = 'https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow' // my youtube channel
+global.snh = 'https://www.youtube.com/itsgabbux' // my youtube channel
 global.sfb = 'https://www.facebook.com/' // facebook
-global.syt = 'https://www.youtube.com/' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
+global.syt = 'https://www.youtube.com/UCZ772HuTJTuJUBNizGtZmbA' // my 2nd youtube channel
 
 /*============== PAYMENT ==============*/
 global.pdana = '08XXXXXXXXXX' //dana
@@ -69,8 +69,8 @@ global.psaweria = 'https://saweria.com/mrw4h1d'
 /*============== NOMOR ==============*/
 global.nomorbot = '62XXXXXXXXXXX'
 global.nomorown = '6282127487538'
-global.namebot = 'WH-MODS-BOT-V1'
-global.nameown = 'WH MODS DEV'
+global.namebot = 'GABBUX BOT'
+global.nameown = 'GABBUX'
 
 /*============== Github Thanks To ==============*/
 global.namagithub = 'Nama Github Belum Diisi' // nama github lu
@@ -85,7 +85,7 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282127487538', 'WH MODS DEV', true],
+  ['393755950457', 'GABBUX', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
@@ -138,14 +138,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 WH-MODS-BOT-V1 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘WH-MODS-BOT-V1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ WH-MODS-BOT-V1 '
+global.wm = '                「 GABBUX-BOT 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘GABBUX BOT ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ GABBUX BOT '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By WH-MODS-DEV`
+global.titlebot = `⫹⫺ WhatsApp Bot | By GABBUX-BOT
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '                「 WH-MODS-BOT-V1  あ」'
+global.author = '                「 GABBUX-BOT  あ」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
@@ -154,11 +154,11 @@ global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
-global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumb = 'https://images5.alphacoders.com/587/587597.jpg' //Main Thumbnail
+global.imagebot = 'https://i0.wp.com/i.pinimg.com/originals/88/eb/5c/88eb5cc2fcebaeb2bd76987a4ca4ad2b.png'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
-global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumbs = ['https://roonby.com/wp-content/uploads/2022/01/cool-anime-wallpaper-hd.jpg']
+global.fla = 'https://wallpapercrafter.com/sizes/2560x1440/47927-goku-dragon-ball-super-anime-hd-dragon-ball-4k-5k-artist.jpg'
 global.thumbnailUrl = [
 'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg','https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
 'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg','https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
@@ -382,7 +382,7 @@ global.hwaifu2 = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e
 /*============== HENTAI ==============*/ 
 //OPTIONS
 global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
-global.premnsfw = true // Nsfw Mode Premium?
+global.premnsfw = false // Nsfw Mode Premium?
 
 
 //Ini cuma simpenan owner kok :v
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'WH-MODS-BOT-V1'
-global.stickauth = `By ©WH-MODS-DEV`
+global.stickpack = 'GABBUX-BOT'
+global.stickauth = `By ©GABBUX-BOT`
 
 global.multiplier = 38 // The higher, The harder levelup
 
